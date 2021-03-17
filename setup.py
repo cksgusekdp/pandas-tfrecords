@@ -18,5 +18,6 @@ setup(
     ],
     packages=['pandas_tfrecords'],
     install_requires=[
+        's3fs==0.4.0',
     ],
 )
